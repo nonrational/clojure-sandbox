@@ -8,14 +8,13 @@ A Clojure library designed to ... well, that part is up to you.
 Open `jdk-11.0.6_osx-x64_bin.dmg` to install JDK11
 
 ### Set Up Shell
+
 ```bash
 brew bundle
-#
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(jenv init -)"' >> ~/.bash_profile
+jenv add /Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/
 ```
-
-### Get Leiningen
-
-https://leiningen.org/
 
 ## Usage
 
